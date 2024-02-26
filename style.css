@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: palegoldenrod;
+  padding: 20px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  background: rgb(60, 64, 67);
+  color: rgb(189, 193, 198);
+  margin-top: -10px;
+}
+
+th,
+td {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 50%;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+
+tr:hover td:nth-child(3),
+tr:hover td:nth-child(4),
+tr:hover td:nth-child(5),
+tr:hover td:nth-child(6),
+tr:hover td:nth-child(7),
+tr:hover td:nth-child(8),
+tr:hover td:nth-child(9),
+tr:hover td:nth-child(10) {
+  background-color: rgba(68, 84, 97, 0.699);
+}
+
+h2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-size: 70px;
+  color: saddlebrown;
+  transition: text-decoration 0.3s ease-in-out, color 0.3s ease-in-out;
+  margin-top: -20px;
+}
+
+h2:hover {
+  text-decoration: underline;
+  color: rgb(212, 96, 12);
+}
+
+
+h2 > img:hover {
+    transition: text-decoration 0.3s ease-in-out, color 0.3s ease-in-out;
+    cursor: pointer;
+}
